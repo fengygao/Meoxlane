@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 956215 */
+  src: url('//at.alicdn.com/t/font_956215_y48gj4elqj.eot');
+  src: url('//at.alicdn.com/t/font_956215_y48gj4elqj.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_956215_y48gj4elqj.woff') format('woff'),
+  url('//at.alicdn.com/t/font_956215_y48gj4elqj.ttf') format('truetype'),  url('//at.alicdn.com/t/font_956215_y48gj4elqj.svg#iconfont') format('svg');
+}
+#del,#pass2{
+  font-family:"iconfont" !important;
+  font-size:22px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;}
+#MainContent{
+    width:1579px;
+    height:722px;
+    background:url(../img/1429142403994910134.jpg) no-repeat;
+    opacity: 0.3;
+    #m-content{
+        width:1002px;
+        height:722px;
+        margin:0 auto;
+        h2{
+            position:fixed;
+            top:0;
+            left:100px;
+        }
+        #biaodan{
+            width:340px;
+            height:506px;
+            background:white;
+            opacity:0.3;
+            p{
+                vertical-align: middle;
+                width:280px;
+                height:22px;
+                float: left;
+                font-size:12px;
+                a{
+                    color:red;
+                    font-size: 12px;
+                }
+            }
+            form{
+                vertical-align: middle;
+                width:280px;
+                height:461px;
+                input{
+                    width:275px;
+                    border-color: red;
+                    height:40px;
+                    line-height:40px;
+                    border-bottom:30px;
+                    padding-left: 5px;
+                }
+            }
+        }
+    }
+}
