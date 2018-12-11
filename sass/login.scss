@@ -34,11 +34,11 @@
 }
 #biaodan{
     width: 340px;
-  height: 506px;
-  background: white;
-  position: absolute;
-  right:90px;
-  top: 90px;
+    height: 506px;
+    background: white;
+    position: absolute;
+    right:90px;
+    top: 90px;
     p{
     width: 280px;
     height: 22px;
@@ -54,7 +54,7 @@
     ul{
         margin:42px 0 0 28px;   
         width: 280px;
-        height: 461px;
+        height: 400px;
         li{
             width:280px;
             height:40px;
@@ -62,7 +62,6 @@
             position: relative;
             input{
                 width: 252px;
-                height: 40px;
                 line-height: 40px;               
                 padding-left: 22px;
             }
@@ -71,29 +70,45 @@
                 left:1px;
                 top:9px;
             }
-        }
-        li:nth-child(5){
-            font-size:14px;
-            color:#999;
-            height:19px;
-            .righ{
-                width:13px;
-                height:13px;
-                margin:10px 7px 0 0;
-            }
-            a{
-                color:red;
+            .regi{
+                width:280px;
+                background:red;
+                border:0;
+                color:white;
+                text-align: center;
+                font-size: 20px;
+                border-radius: 6px;
+                margin-top:10px;
             }
         }
-        .regi{
-            width:280px;
-            background:red;
-            border:0;
-            color:white;
-            text-align: center;
-            font-size: 20px;
-            border-radius: 6px;
-            margin-top:10px;
-        }                     
+        .check{
+               width:280px;
+               height:21px;
+               input{
+                   width:21px;
+                   height:21px;
+                   float: left;
+               }
+               a{
+                   font-size:14px;
+                   float: right;
+               }
+        }           
+                             
+    }
+    span{
+        display:block;
+        width:252px;
+        height: 40px;
+        font-size:14px;
+        padding-left:28px;
+        position: relative;
+        img{
+            width:40px;
+            height:40px;
+            position:absolute;
+            top:-12px;
+            left:159px;         
+        }
     }
 }

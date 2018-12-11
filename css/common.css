@@ -1,0 +1,190 @@
+html, body {
+  height: 100%; }
+
+@font-face {
+  font-family: 'iconfont';
+  src: url("//at.alicdn.com/t/font_956213_af1tj606nfq.eot");
+  src: url("//at.alicdn.com/t/font_956213_af1tj606nfq.eot?#iefix") format("embedded-opentype"), url("//at.alicdn.com/t/font_956213_af1tj606nfq.woff") format("woff"), url("//at.alicdn.com/t/font_956213_af1tj606nfq.ttf") format("truetype"), url("//at.alicdn.com/t/font_956213_af1tj606nfq.svg#iconfont") format("svg"); }
+
+.sou, .gou {
+  font-family: "iconfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 24px;
+  padding: 0 4px; }
+
+.good, .kefu, .you {
+  font-family: "iconfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 75px;
+  color: #999; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+img {
+  display: block; }
+
+.gou {
+  position: relative; }
+  .gou span {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    position: absolute;
+    left: 12px;
+    top: -4px;
+    background: #d10049;
+    color: white;
+    text-align: center;
+    font-size: 12px; }
+
+.top {
+  height: 80px;
+  background: #999;
+  display: none; }
+  .top input {
+    width: 550px;
+    height: 20px;
+    padding: 10px 20px;
+    color: #ccc;
+    position: absolute;
+    left: 200px;
+    top: 26px; }
+  .top button {
+    width: 114px;
+    height: 42px;
+    background: black;
+    line-height: 42px;
+    color: white;
+    border: 0;
+    position: absolute;
+    left: 794px;
+    top: 27px; }
+  .top button:hover {
+    background: #d10049; }
+  .top span {
+    display: block;
+    width: 18px;
+    height: 24px;
+    border-radius: 50%;
+    background: #666;
+    padding-left: 6px;
+    position: absolute;
+    left: 910px;
+    top: 36px; }
+  .top span:hover {
+    background: #CCC;
+    color: #999; }
+
+.top2 {
+  height: 70px;
+  width: 982px;
+  margin: 0 auto; }
+  .top2 > img {
+    float: left;
+    margin-top: 15px; }
+  .top2 .aul {
+    width: 362px;
+    height: 24px;
+    float: right;
+    margin-top: 30px; }
+    .top2 .aul li {
+      float: left; }
+      .top2 .aul li a {
+        font-size: 12px;
+        color: #999;
+        padding: 0 4px; }
+    .top2 .aul li:nth-of-type(even) a {
+      border-right: 1px solid #999;
+      border-left: 1px solid #999; }
+
+footer {
+  width: 1260px;
+  height: 464px;
+  margin: 60px auto; }
+
+#tubiao {
+  width: 1260px;
+  height: 320px;
+  border-bottom: 1px solid #ccc; }
+  #tubiao ul {
+    width: 409px;
+    height: 119px;
+    margin: 0 auto; }
+    #tubiao ul li {
+      margin: 0 10px;
+      width: 109px;
+      height: 109px;
+      float: left;
+      text-align: center; }
+      #tubiao ul li p {
+        color: #999;
+        font-size: 16px; }
+
+.lis {
+  width: 715px;
+  margin: 10px auto; }
+  .lis dl {
+    float: left;
+    text-align: left;
+    line-height: 30px;
+    width: 117px; }
+    .lis dl dt {
+      font-size: 18px;
+      color: #999; }
+    .lis dl dd > a {
+      color: #999;
+      font-size: 14px; }
+    .lis dl dd > img {
+      width: 100px;
+      height: 100px; }
+
+#end {
+  margin-top: 30px;
+  width: 1260px;
+  height: 94px; }
+  #end ul {
+    width: 556px;
+    height: 20px;
+    margin: 0 auto; }
+    #end ul li > a {
+      height: 20px;
+      color: #999;
+      font-size: 14px;
+      padding: 0 15px;
+      border-right: 1px solid #999;
+      float: left; }
+    #end ul li:last-child a {
+      border: 0; }
+  #end p {
+    background: url(../../img/newicon.png) no-repeat left;
+    width: 578px;
+    line-height: 28px;
+    margin: 0 auto;
+    font-size: 14px; }
+  #end p > a {
+    color: #999;
+    padding-left: 28px; }
+
+#last {
+  width: 500px;
+  height: 41px;
+  margin: 20px auto; }
+  #last a {
+    margin: 0 14px;
+    float: left;
+    color: #999;
+    line-height: 31px; }

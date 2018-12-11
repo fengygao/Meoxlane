@@ -53,7 +53,7 @@ li {
   #biaodan ul {
     margin: 42px 0 0 28px;
     width: 280px;
-    height: 461px; }
+    height: 400px; }
     #biaodan ul li {
       width: 280px;
       height: 40px;
@@ -61,29 +61,41 @@ li {
       position: relative; }
       #biaodan ul li input {
         width: 252px;
-        height: 40px;
         line-height: 40px;
         padding-left: 22px; }
       #biaodan ul li .tu, #biaodan ul li .biao {
         position: absolute;
         left: 1px;
         top: 9px; }
-    #biaodan ul li:nth-child(5) {
-      font-size: 14px;
-      color: #999;
-      height: 19px; }
-      #biaodan ul li:nth-child(5) .righ {
-        width: 13px;
-        height: 13px;
-        margin: 10px 7px 0 0; }
-      #biaodan ul li:nth-child(5) a {
-        color: red; }
-    #biaodan ul .regi {
+      #biaodan ul li .regi {
+        width: 280px;
+        background: red;
+        border: 0;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        border-radius: 6px;
+        margin-top: 10px; }
+    #biaodan ul .check {
       width: 280px;
-      background: red;
-      border: 0;
-      color: white;
-      text-align: center;
-      font-size: 20px;
-      border-radius: 6px;
-      margin-top: 10px; }
+      height: 21px; }
+      #biaodan ul .check input {
+        width: 21px;
+        height: 21px;
+        float: left; }
+      #biaodan ul .check a {
+        font-size: 14px;
+        float: right; }
+  #biaodan span {
+    display: block;
+    width: 252px;
+    height: 40px;
+    font-size: 14px;
+    padding-left: 28px;
+    position: relative; }
+    #biaodan span img {
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      top: -12px;
+      left: 159px; }
